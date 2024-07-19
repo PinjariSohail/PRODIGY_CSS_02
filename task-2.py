@@ -41,7 +41,7 @@ def main():
             print("Encrypted image saved as: ", encrypted_image_path)
         elif choice == "d":
             encrypted_image_path = input("Enter the path of the encrypted image: ")
-            decrypted_image_path = decrypt_image(decrypted_image_path)
+            decrypted_image_path = decrypt_image(encrypted_image_path)
         else:
             print("Invalid choice! please enter valid choice.")
             continue
